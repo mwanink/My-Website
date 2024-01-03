@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<!--
+	Read Only by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>New Page</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="images/KittPeakSelfie.png" alt="" /></span>
+					<h1 id="logo"><a href="index.html">Matthew Wanink</a></h1>
+					<p>Astrophysics and Computer Science Undergraduate Student <br />
+						at the University of Michigan</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#main" class="active"> My Projects</a></li>
+                        <li><a href="#gaia"> Chandra and GAIA Catalogs</a></li>
+						<li><a href="#ulx">X-ray Data Analysis of ULXs</a></li>
+						<li><a href="#kitt">Reliability of Photometric Redshifts</a></li>
+						<li><a href="#phangs">PHANGS Cluster Sizes</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/matthew-wanink-9a05972a7/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/mwanink" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto:mattwanink@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="main">
+								<div class="image main" data-position="center">
+									<img src="images/galaxy.jpg" alt="" />
+								</div>
+								<div class="container">
+									<header class="major">
+										<h2>My Projects</h2>
+									</header>
+									<p> Check out my reserach projects below! Also listed are a full collection of my publications and presentations.
+                                        <br /><br />
+                                        <a href="Publications.pdf">Publications</a>
+									</p>
+								</div>
+							</section>
+
+                            <section id="gaia">
+								<div class="container">
+
+									<h3>Transient and Variable Sources in the GAIA and Chandra Catalogs</h3>
+
+									<p> My introduction to astronomical research came through the form of the Undergraduate Research Opportunity Program (UROP). Here I worked with Dr. Mark Reynolds to search for source matches across bothe the Chandra and GAIA source catalogs. These matches had the potential to be X-ray binary candidates - 
+                                        the object of my analysis. 
+                                        <br /><br />
+                                        This was my first time working with large datasets and I had to learn multiple methods to access specific data from direct file access to querying database servers. This also gave me the initial opportunity to familiarize myself with all manner of python's data analysis libraries: 
+                                        from accessing data using pandas and astropy, to manipulation and visualization using matplotlib, numpy, and scipy. This period was when my love of computational tools blossomed and motivated me to take on the computer science major with a focus on tools to efficiently analyze, store, and query large databases 
+                                        to complement my already rigorous coursework in physics and mathematics.
+                                        <br /><br />
+                                        I continued my work with Dr. Reynolds to find roughly a dozen source matches across the catalogs through coordinate matches. At the end of my term in UROP, I presented my findings in both the <a href="https://docs.google.com/presentation/d/1kivc9dIxMprzFnwWCILWG84QGzy-DVBhPvFLFW7hojU/edit?usp=sharing">University of Michigan UROP Research Symposium</a> and the 
+                                        <a href="https://docs.google.com/presentation/d/1qLJ0AfjsgumOJ2BpUnbU868ogREIZqJLsv3nJsMGaPc/edit?usp=sharing">University of Michigan Department of Astronomy Undergraduate Research Poster Session</a>. 
+                                        This was an incredible introduction to astronomical research and presentations which set me on the path I am still on today, giving me my initial experience with accessing and manipulating large datasets.
+									</p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="ulx">
+								<div class="container">
+									<h3>X-ray Data Analysis of Ultra-Luminous X-ray Sources</h3>
+									<p>Working with Dr. McKinley Brumback, I particpated in research within a seminar designed to teach the basics of X-ray data analysis. Through this project, I learned the strategies and methods to extract and mnodel X-ray spectra using tools included through HEASoft.
+                                        In this time I had the opportunity to analyze and model a range of astronomical sources from black holes, to neutron stars, and ultraluminous X-ray sources (ULXs). 
+                                        <br /><br />
+                                        ULXs are a category of extremely bright X-ray sources that include ULX pulsars: neutron stars whose 
+                                        luminosity exceeds their Eddington limits by factors of 10 - 1000. I decided to focus my research for the seminar on these ULX pulsars because investigating the nature of super-Eddington accretion seemed incredibly interesting. For my final project, I picked the ULX 
+                                        pulsar NGC 5907 ULX1, for which I modeled its X-ray spectrum in the 0.5 - 10 keV energy range across 4 different Swift XRT exposures from March - April 2023. This posed many challenges due to the faint nature of the source and thus I had to familiarize myself with the 
+                                        methods of X-ray analysis to handle such low photon count observations. I relied on literature to constrain model parameters like the photon index and absorbing column density of my X-ray spectrum model, and used tools like WebPIMMS to analyze the flux of the source. 
+                                        <br /><br />
+                                        In the end, I was able to confirm a consistently super-Eddington luminosity using my spectral analysis and a distance estimation from the Tully-Fisher relation. I presented my results in the form of a first-author Astronomer's Telegram publication <a href="https://www.astronomerstelegram.org/?read=16015">ATel #16015</a>. At the same time, 
+                                        I was also able to comment and assist on the modeling of the X-ray spectra and flux estimation conducted by my peers in the seminar on a variety of astronomical objects from black holes to magnetars resulting in the contributing-author publications of <a href="https://www.astronomerstelegram.org/?read=16014">ATel #16014</a>, 
+                                        <a href="https://www.astronomerstelegram.org/?read=16016">ATel #16016</a>, and <a href="https://www.astronomerstelegram.org/?read=16017">ATel #16017</a>. 
+                                    </p>
+									
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="kitt">
+								<div class="container">
+									<h3>Investigating the Reliability of Photometric Redshifts</h3>
+									<p>In the summer after my junior year I embarked on a month-long observation-based research project conducted at Kitt Peak National Observatory. Here, I attended a summer course offered by the University of Michigan (Astro 461) under the guidance of Dr. Sally Oey where we wrote telescope proposals to conduct research projects we designed with a 
+                                        peer as well as collected data at the MDM observatory through use of the Hiltner 2.4 m telescope and the McGraw-Hill 1.3 m telescope. I worked with my classmate, Ryan Walker, to test the viability of using photometric redshift fitting techniques through image data against the more standard spectroscopic redshift fitting routines by gathering 
+                                        data and performing our analysis with both methods. This would help to showcase how much less reliable the photometric method of redshift estimation truly was and if this loss was comparatively worth it due to it being less expensive data in terms of equipment time. In addition to taking data to compare our computed redshifts, we decided to 
+                                        further showcase how the errors from these methods propagate in the form of calculating the average Hubble Constant value computed from the redshifts and redshift-independent distance values of these galaxies in either method. We were able to find four galaxies that ranged in accepted redshift values of 0.02 to 0.4 to observe in our observing window and conduct our analysis on.
+                                        <br /><br />
+                                        This experience allowed me the opportunity to explore every facet of the investigation process; from writing proposals and researching literature on an astronomical problem, to then collecting data through observation and experiencing the issues that come up in this process and how to most efficiently solve and navigate them. I then tailored my own 
+                                        data calibration pipeline and analyzed the results of the different methods of calculating redshifts with my partner, which included learning about the more unfamiliar photometric redshift software involving tools like Bagpipes. In the end, I prepared a presentation for my peers and the staff on Kitt Peak with my partner in our final poster symposium, which was an excellent 
+                                        opportunity to meet astronomers from all over the world and hear their feedback on our work.
+                                    </p>
+									
+								</div>
+							</section>
+
+						<!-- Four -->
+							<section id="phangs">
+								<div class="container">
+									<h3>PHANGS Cluster Sizes</h3>
+									<p>My current project has been working with Dr. Oleg Gnedin to utilize observational image data to fit for the half-light radii of a selection of star clusters, and thus obtain a reliable density estimation coupled with the already existing mass measurements. With the densities of these clusters known, the future of these clusters can also be estimated as density determines the evolution 
+                                        of the cluster into either a globular cluster or dissipation into the stellar field. My research was based on previous work developed by Dr. Gnedin and Dr. Gillen Brown to create a pipeline which fit for the half-light radii of clusters within the LEGUS catalog. I worked to continue this previous work in adapting a custom pipeline to fit for cluster sizes within a range of galaxies within 
+                                        the PHANGS catalog, which has meant reworking the full pipeline from PSF generation to fit analysis. Through this work, I got the opportunity to fully explore each step of the data analysis process and work towards automating it more efficiently, and to use this knowledge to generate fits for a new selection of star clusters within the new catalog. In order to do this and produce reliable data 
+                                        products at every step of the process, I have had to utilize all of my computer science experience. This includes using the most efficient data structures, storing and reading data efficiently at each step of the process, and using my relational database knowledge of efficient operations in order to merge and select the relevant metadata throughout the pipeline. 
+                                        <br /><br />
+                                        Through this project, I also had the opportunity to work and meet with the team at the Space Telescope Science Institute for insight into their data products and methods, which allowed me to experience research conducted in a larger team environment and how to best manage and contribute to my role in it. So far, we have fit for hundreds of clusters across three galaxies but we plan to continue 
+                                        our analysis on more clusters in the remaining galaxies within the catalog. Upon completion, we expect to produce a paper showcasing the full catalog of clusters, their metadata, and what these sizes and quantities mean about their evolution. We also plan to release an updated and automated pipeline to reproduce and analyze the results yourself. My work in this project and the paper we plan to 
+                                        produce has qualified me for major honors recognition in the astronomy department at the University of Michigan.
+                                        </p>
+									
+								</div>
+							</section>
+                        </div>
+
+                        <!-- Footer -->
+                            <section id="footer">
+                                <div class="container">
+                                    <ul class="copyright">
+                                        <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                                    </ul>
+                                </div>
+                            </section>
+        
+                    </div>
+        
+                <!-- Scripts -->
+                    <script src="assets/js/jquery.min.js"></script>
+                    <script src="assets/js/jquery.scrollex.min.js"></script>
+                    <script src="assets/js/jquery.scrolly.min.js"></script>
+                    <script src="assets/js/browser.min.js"></script>
+                    <script src="assets/js/breakpoints.min.js"></script>
+                    <script src="assets/js/util.js"></script>
+                    <script src="assets/js/main.js"></script>
+        
+            </body>
+        </html>
